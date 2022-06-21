@@ -1,7 +1,7 @@
 const arr = ["php", "php", "css", "css", "script", "script", "html", "html", "java"];
 const task7 = document.createElement('div');
 task7.className = ('task');
-task7.innerHTML = 'Задание 7:<br><br>Входные данные<br>' + arr + ' <br><br>Результат<br>' + removeDuplicates(arr);  
+task7.innerHTML = `Задание 7:<br><br>Входные данные<br> ${arr} <br><br>Результат<br> ${removeDuplicates(arr)}`;  
 document.body.append(task7);
 function removeDuplicates(arr) {
     let newArr = [];
@@ -11,5 +11,5 @@ function removeDuplicates(arr) {
     }
     return newArr;
 }
-
+export default removeDuplicates;
 

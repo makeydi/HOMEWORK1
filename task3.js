@@ -1,7 +1,7 @@
-const vegetables = ["Капуста", "Репа", "Редиска", "Морковка"];
+const vegetables = ['Капуста', 'Репа', 'Редиска', 'Морковка'];
 let task3 = document.createElement('div');
   task3.className = 'task';
-  task3.innerHTML = 'Задание 3:' + '<br>' + '<br>' + 'Входные данные '+ '<br>' + `vegetables = ["Капуста", "Репа", "Редиска", "Морковка"]` + '<br>'+'<br>' + 'Результат' + '<br>';
+  task3.innerHTML = `Задание 3:<br><br>Входные данные<br> vegetables = ['Капуста', 'Репа', 'Редиска', 'Морковка']<br><br>Результат`;
 document.body.append(task3);
 function copyArr(arr) {
     return arr.slice();
