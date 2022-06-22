@@ -3,7 +3,6 @@ body {
     padding: 0 auto;
     width: 100%;
     text-align: center;
-
 }
 
 .task {
@@ -17,6 +16,7 @@ body {
     font-size: 20px;
     color: black;
     text-align: center;
+    margin: 0 2px;
 }
 
 .btn {
@@ -28,4 +28,13 @@ body {
 
 .btn:hover {
     cursor: pointer;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
 }
